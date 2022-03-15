@@ -21,6 +21,10 @@ class HomePage extends StatelessWidget {
             title: 'change theme',
             route: 'changeTheme',
           ),
+          const _Items(
+            title: 'Sliders',
+            route: 'sliders',
+          ),
         ],
       ),
     );

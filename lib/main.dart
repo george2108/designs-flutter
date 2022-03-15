@@ -2,6 +2,7 @@ import 'package:designs/pages/animated_navbar/animated_navBar_page.dart';
 import 'package:designs/pages/change_theme/change_theme_page.dart';
 import 'package:designs/pages/home_page.dart';
 import 'package:designs/pages/profile/profile_page.dart';
+import 'package:designs/pages/sliders/sliders_page.dart';
 import 'package:designs/providers/config_app_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
             'profile': (_) => ProfilePage(),
             'animatedNavBar': (_) => AnimatedNavBarPage(),
             'changeTheme': (_) => const ChangeThemePage(),
+            'sliders': (_) => SlidersPage(),
           },
         );
       },
